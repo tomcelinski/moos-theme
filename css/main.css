@@ -1,0 +1,1188 @@
+/* ==========================================================================
+   HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ===== Initializr Styles ==================================================
+   Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
+   ========================================================================== */
+
+body {
+    font: 16px/26px Helvetica, Helvetica Neue, Arial;
+    
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 5%;
+}
+
+/* ===================
+    ALL: Orange Theme
+   =================== */
+
+.header-container,
+.footer-container,
+.main aside {
+}
+
+.title {
+    color: #EB272C;
+    text-align: left;
+    float:left;
+}
+
+#intro {
+    background: rgba(255,255,255,0.9);
+    padding: 1em;
+}
+
+/* ==============
+    MOBILE: Menu
+   ============== */
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    display: block;
+    margin-bottom: 10px;
+    padding: 15px 0;
+
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+
+    color: #EB272C;
+}
+
+nav a:hover,
+nav a:visited {
+    color: #EB272C;
+}
+
+nav a:hover {
+    background-color: rgba(0,0,0,0.03);
+    text-decoration: underline;
+}
+
+/* ==============
+    MOBILE: Main
+   ============== */
+
+.main {
+    padding: 30px 0;
+}
+
+.main article h1 {
+    font-size: 2em;
+}
+
+.main aside {
+    color: white;
+    padding: 0px 5% 10px;
+}
+
+.footer-container {
+    background: white;
+}
+
+.footer-container footer {
+    color: #333;
+    padding: 20px 0;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding-bottom: 70px;
+}
+
+/* ===============
+    ALL: IE Fixes
+   =============== */
+
+.ie7 .title {
+    padding-top: 20px;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+p.small {
+    font-size: 12px;
+    color: #888;
+    font-style: italic;
+    line-height: 13px;
+    text-align:center;
+}
+
+html {
+    height: 100%;
+}
+
+/* --- ABOUT PAGE --- */
+
+body.page-template-page-about-php {
+    background: url('../img/about_bg.jpg') center right no-repeat #d6d6cc;
+    background-size: contain;
+    height: 100%;
+    background-attachment: fixed;
+}
+
+.about_text {
+    padding: 150px 0;
+    width: 60%;
+}
+
+
+/* OTHER PAGES */
+
+a {
+    color: #ea292e;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff635a;
+}
+
+footer div.social {
+    float: right;
+    margin-left: 2%;
+}
+
+footer a {
+    text-decoration: none;
+    padding-left: 2%;
+}
+
+.menu_button { float: right; margin-left: 2% }
+
+div.center {
+    text-align:center
+}
+
+h1 {
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 170%;
+}
+
+.header-container,
+.main aside {
+    -webkit-box-shadow: none !important;
+       -moz-box-shadow: none !important;
+            box-shadow: none !important;
+}
+
+.header-container {
+    position: fixed;
+    top: 0px;
+    left: 0px; right: 0px;
+    background: rgba(255, 255, 255, 0.95);
+    z-index: 100;
+}
+.header-container ul li a {
+	text-decoration: none;
+}
+body {
+    background: #FCFCFC;    
+    color: #333;
+    font-weight: 300;
+}
+
+.clear {
+    clear: both;
+}
+
+.button {
+    display: block;
+    padding: 0.5em;
+    width: 9em;
+    color: white;
+    clear: both;
+    text-decoration: none;
+    
+    text-align: center;
+    font-size: 1.3em;
+    margin: 1em auto;
+    
+    background-color: #DA2403 !important;
+    
+    -webkit-border-radius: 0; /* Safari 3-4, iOS 1-3.2, Android ≤1.6 */
+            border-radius: 0; /* Opera 10.5, IE9+, Safari 5, Chrome, Firefox 4+, iOS 4, Android 2.1+ */
+}
+
+.button:hover {
+    background-image: none;
+    color: white;
+    background-color: #FF2A04 !important;
+    text-decoration: none;
+}
+
+
+#intro {
+    margin-top: 100px;
+}
+
+#main_image {
+    width: 100%;
+    height: 670px;
+    background: url('../img/main_image_standin.jpg') bottom right no-repeat #D1D2CC;
+    background-size: contain;
+    margin: 0 auto;
+}
+
+section {
+    margin: 0;
+    padding: 1em 0;
+    min-width:1000px !important;
+}
+
+section.light {
+    margin: 0;
+    padding: 1em 0;
+    background: white;
+    border-width: 1px 0;
+    border-style: solid;
+    border-color: #ddd;
+    padding-bottom: 0;
+}
+
+section.light + section.light {
+    border-top: none;
+}
+
+section > .wrapper {
+    height: 100%;
+}
+
+section.light img {
+    max-width: 50%;
+}
+
+ul.boxes {
+    list-style-type: none;
+}
+
+ul.boxes > li {
+    text-align: center;
+    padding: 0 5% 1em 5%;
+}
+
+ul.faq {
+    list-style-type: none;
+    float: left;
+    width: 100%;
+    text-align: left;
+}
+
+ul.faq > li {
+    text-align: center;
+}
+
+details > summary {
+    text-decoration: underline;
+    color: #E44D26;
+    cursor: pointer; cursor: hand;
+}
+
+section#worlds_best {
+    background: url('../img/worlds_best.jpg') bottom right no-repeat #020202;
+    background-size: contain;
+    height: 550px;
+    padding-top: 100px;
+    color: #999 !important;
+}
+
+section#all_about_music {
+    background: url('../img/all_about_music.jpg') top left no-repeat #020202;
+    background-size: cover;
+    height: 650px;
+    color: #fff !important;
+}
+
+section#all_about_music h2 {
+    margin-top: 100px;
+}
+
+section#tested {
+    background: black;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    color: #888 !important;
+}
+
+section#digital_music {
+    background: url('../img/digital_music.jpg') bottom right no-repeat #2F2F2F;
+    background-size: contain;
+    padding: 100px 0;
+    color: #BBB !important;
+}
+
+section#digital_performance {
+    background: url('../img/digital_performance.jpg') bottom right no-repeat #D3DBE2;
+    background-size: 1000px;
+    height: 500px;
+    padding-top: 50px;
+    color: #555 !important;
+}
+
+section#understated_elegance {
+    background: url('../img/understated_elegance.jpg') bottom center no-repeat #D3DBE2;
+    background-size: cover;
+    height: 700px;
+    padding-top: 50px;
+    color: #555 !important;
+    border-bottom: 0;
+}
+
+#understated_elegance h2, #colours h2 {
+    width: 100%;
+    text-align: center;
+}
+
+#understated_elegance p, #colours p {
+    text-align: center;
+    margin: 0 auto;
+    float: none;
+}
+
+section#colours {
+    padding-top: 230px;
+    background: url('../img/colours.jpg') bottom center no-repeat black;
+    height: 550px;
+    color: #CCC !important;
+}
+
+section#award {
+    background-color: #DBE0EB;
+    height: 550px;
+    color: #656E75 !important;
+    padding: 50px 0;
+}
+
+section#designed_on_earth {
+    padding-top: 50px;
+    background: url('../img/designed_on_earth.png') bottom center no-repeat,
+                url('../img/designed_on_earth_bg.jpg') bottom center repeat-y;
+    background-size: 100%;
+    padding-bottom: 57%;
+    color: white !important;
+}
+
+#designed_on_earth h2 {
+    width: 100%;
+    text-align: center;
+}
+
+#designed_on_earth p {
+    float: none;
+    width: 100%;
+}
+
+section#order {
+    background: url('../img/order.jpg') bottom left no-repeat #B7A594;
+    background-size: contain;
+    height: 700px;
+    color: #342F2A !important;
+}
+
+.button {
+    width: 14em;
+}
+
+section#tweeter {
+    padding-top: 60px;
+    height: auto;
+}
+
+section#tweeter {
+    background: url('../img/tweeter.jpg') 10% 100% no-repeat #E1E1E1;
+    padding-top: 120px;
+    padding-bottom: 50px;
+    background-size: 90%;
+}
+
+section#woofer {
+    background: url('../img/woofer.jpg') bottom right no-repeat white;
+    background-size: auto 100%;
+    padding-top: 100px;
+    height: 550px;
+}
+
+section#quad_differential {
+    background: url('../img/quad_differential.jpg') bottom left no-repeat #DEE1DE;
+    background-size: auto 100%;
+    padding-top: 100px;
+    height: 550px;
+}
+
+section#quad_differential p, #quad_differential h2 {
+    float: right;
+    clear: right;
+    width: 50%;
+}
+
+section#wireless_audio {
+    background: url('../img/wireless_audio.jpg') bottom left no-repeat black;
+    background-size: cover;
+    padding-top: 100px;
+    height: 550px;
+    color: #ddd !important;
+}
+
+section#all_aluminium {
+    background: url('../img/all_aluminium.jpg') bottom center no-repeat #060707;
+    background-size: contain;
+    padding-bottom: 500px;
+    padding-top: 80px;
+}
+
+#all_aluminium p, #all_aluminium h2 {
+    float: none;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    color: #888;
+    margin-bottom: 15px;
+}
+
+#birch_plywood {
+    background: url('../img/birch_plywood.jpg') bottom right no-repeat #d2c6b0;
+    background-size: contain;
+    padding-top: 100px;
+    padding-bottom: 500px;
+    color: #554a38 !important;
+}
+
+#birch_plywood p, #birch_plywood h2 {
+    float: none;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+#damping {
+    background: url('../img/damping.jpg') left no-repeat #0e0e0c;
+    background-size: auto 100%;
+    padding-top: 50px;
+    height: 700px;
+}
+
+#damping p, #damping h2 {
+    float: right;
+    clear: right;
+
+    margin-right: 15%;
+    color: #888;
+    width: width: 60%;
+}
+
+#wireless_audio p, #wireless_audio h2 {
+    float: right;
+    clear: right;
+}
+
+#hypex {
+    background: white;
+    padding: 50px 0;
+}
+
+#hypex img {
+    margin-top: 150px;
+}
+
+#sharc {
+    background: url('../img/sharc.jpg') right center no-repeat #D4D7D2;
+    background-size: auto 100%;
+    height: 650px;
+    padding: 50px 0;
+}
+
+#woofer h2 {
+    width: 60% !important;
+}
+
+#woofer p, #woofer h2 {
+    width: 55%;
+}
+
+section#jitter {
+    background: url('../img/jitter.jpg') center right no-repeat #131313;
+    height: 650px;
+}
+
+#jitter h2, #jitter p {
+    color: #999 !important;
+}
+
+#jitter h2 {
+    padding-top: 100px;
+}
+#logoIMG {
+	
+}
+
+/* TESTIMONIALS */
+
+section.testimonial.yellow {
+    background: #fdb62b;
+}
+section.testimonial.yellow blockquote {
+    color: #74480b;
+}
+
+section.testimonial blockquote {
+    font-size: 28px;
+    line-height: 38px;
+    width: 100%;
+    padding: 50px auto;
+    text-align: center;
+    margin: 1em 0 !important;
+}
+
+section.testimonial blockquote p {
+    width: 100%;
+    text-align: center;
+}
+
+section.testimonial blockquote p.large {
+    font-size: 54px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: #543c0e;
+    text-align: center;
+}
+
+section.testimonial p.citation {
+    clear: both;
+    text-align: center;
+    margin-top: 10px;
+}
+
+section.testimonial blockquote {
+    float:left;
+}
+
+div.testimonial-logo {
+    text-align: center;
+}
+
+div.testimonial-logo img {
+    margin: 40px 0;
+    padding-bottom: 30px;
+}
+
+section.testimonial span {
+    color: #ea292e;
+}
+
+
+
+/* =Preorder Page - Modifly Styles 
+-------------------------------------------------------------- */
+#preorderForm {
+	width: 545px;
+	margin: auto;
+	padding-top: 35px;
+}
+#s2id_input_1_2_6 {
+	width: 100%; 
+}
+
+#field_1_1 {
+	width: 50%;
+	margin: auto;
+	margin-bottom: 17px;
+}
+#s2id_input_1_1 {
+	width: 100%;
+}
+#field_1_4 label, #field_1_9 label {
+	margin-bottom: 5px;
+}
+
+#input_1_4, #input_1_9 {
+	border: 1px solid #dedede;
+	width: 96%;
+}
+#field_1_4, #field_1_9 {
+	padding: 0px 37px 10px 37px;
+   /*width: auto;*/
+}
+#cardNumber, #cardCVC {
+	border: 1px solid #dedede;
+}
+
+#field_1_7 {
+    width: auto;
+}
+
+#s2id_input_1_12_6 a.select2-choice {
+    width: 215px;
+    padding: 4px 0 8px 8px;
+}
+
+#field_1_11 {
+    padding: 0 0 12px 0;
+}
+
+#input_1_11 {
+    display: none;
+}
+
+#s2id_input_1_11 a.select2-choice {
+    width: 200px;
+    padding: 4px 0 7px 8px;
+}
+
+#s2id_input_1_11 a.select2-choice span {
+    line-height: 28px;
+}
+
+.select2-results .select2-result-label {
+    position: relative;
+}
+
+#s2id_input_1_11 a span span {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 8px;
+    border: 1px solid #333333;
+}
+
+.select2-result-label span.nero,
+.select2-result-label span.bc,
+.select2-result-label span.rm,
+.select2-result-label span.sf {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    border: 1px solid #333333;
+}
+
+#s2id_input_1_11 a span span.nero,
+.select2-result-label span.nero {
+    background: #000000;
+}
+
+#s2id_input_1_11 a span span.bc,
+.select2-result-label span.bc {
+    background: #ffffff;
+}
+
+#s2id_input_1_11 a span span.rm,
+.select2-result-label span.rm {
+    background: rgb(227,1,3);
+}
+
+#s2id_input_1_11 a span span.sf,
+.select2-result-label span.sf {
+    background: rgb(244,179,0);
+}
+
+#s2id_input_1_12_6.select2-container .select2-choice div b,
+#s2id_cardExpMonth.select2-container .select2-choice div b,
+#s2id_cardExpYear.select2-container .select2-choice div b,
+#s2id_input_1_11.select2-container .select2-choice div b {
+    background-position: 0px 5px;
+}
+
+#s2id_input_1_12_6.select2-dropdown-open .select2-choice div b,
+#s2id_cardExpMonth.select2-dropdown-open .select2-choice div b,
+#s2id_cardExpYear.select2-dropdown-open .select2-choice div b,
+#s2id_input_1_11.select2-dropdown-open .select2-choice div b {
+    background-position: -18px 6px;
+}
+
+.gfield .select2-choice {
+    -webkit-border-radius: 0px;
+-moz-border-radius: 0px;
+border-radius: 0
+}
+
+.gfield .select2-container .select2-choice,
+body.page-template-page-preorder_form-php .select2-drop {
+    -webkit-border-radius: 0px;
+-moz-border-radius: 0px;
+border-radius: 0
+}
+
+.gfield .select2-container .select2-choice div {
+    -webkit-border-radius: 0px;
+-moz-border-radius: 0px;
+border-radius: 0
+}
+
+.select2-container,
+.select2-result-label {
+    font-family: 'Proxima N W01 Reg','Helvetica Neue',Helvetica,Arial,'Liberation Sans',FreeSans,sans-serif;
+    font-size: 19px;
+    font-weight: 100;
+}
+
+.gfield_label {
+    font-size: 19px !important;
+}
+
+.gform_wrapper .validation_error {
+    color: #B4B3AC !important;
+}
+#footerLeft {
+	display: inline-block;
+	width: 29%;
+}
+#footerRight {
+	display: inline-block;
+	float: right;
+	width: 70%;
+}
+.footerMenu ul {
+	margin: 0px;
+	padding-left: 0px;
+}
+.footerMenu ul li:first-child {
+	padding-left: 0px; 
+}
+.footerMenu ul li {
+	display: inline-block;
+	padding-left: 2%;
+}
+`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    #digital_music p {
+    width: 45%;
+}
+    
+    #order h2 {
+        margin-top: 160px;
+    }
+
+    #order p, #order h2 {
+        float: right !important;
+        clear: right !important;
+        width: 60% !important;
+    }
+
+    #tweeter p, #tweeter h2 {
+        float: right !important;
+        width: 65% !important;
+
+    }
+
+    #tweeter {
+        padding-bottom: 20% !important;
+    }
+
+    nav a {
+        width: 27% !important;
+    }
+
+    section#community > .wrapper {
+        padding-bottom:0;
+    }
+    
+    section.light p, section.light h2 {
+        float: left;
+        width: 45%;
+    }
+    
+    section.light p {
+        clear: left;
+    }
+    
+    .col {
+        width: 45%;
+        min-width: 45% !important;
+        padding-left: 2%; padding-right: 2%;
+        float: left;
+    }
+    
+    ul.boxes > li {
+        width: 40%;
+        float: left;
+    }
+    
+    ul.faq {
+        width: 40%;
+        padding-right:4%;
+    }
+    ul.faq > li {
+        text-align: left;
+    }
+
+
+
+
+/*
+@media only screen and (max-width: 480px) {
+    
+    header h1.title {
+        text-align: center;
+        float: none;
+    }
+
+    nav {
+        display: none;
+    }
+
+}
+
+
+*/
+
+
+    nav a {
+        float: left;
+        width: 15%;
+        margin: 0 1.7%;
+        padding: 25px 2%;
+        margin-bottom: 0;
+    }
+
+    nav li:first-child a {
+        margin-left: 0;
+    }
+
+    nav li:last-child a {
+        margin-right: 0;
+    }
+
+
+    nav ul li {
+        display: inline;
+    }
+
+    .oldie nav a {
+        margin: 0 0.7%;
+    }
+
+
+
+
+
+section#tested h2, section#tested p { float: right; clear: both; }
+
+
+
+.header-container,
+.main aside {
+    -webkit-box-shadow: 0 5px 10px #aaa;
+       -moz-box-shadow: 0 5px 10px #aaa;
+            box-shadow: 0 5px 10px #aaa;
+}
+
+
+.title {
+    text-align: left;
+}
+
+nav {
+    float: right;
+    width: 38%;
+}
+
+
+.main article {
+    float: left;
+    width: 57%;
+}
+
+.main aside {
+    float: right;
+    width: 28%;
+}
+
+
+
+
+.wrapper {
+    width: 1026px; 
+    margin: 0 auto;
+}
+
+
+
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 100%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow:none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+
+
+/* ---- FAQ ---- */
+
+section#questions {
+    margin-top: 53px;
+    border-top: 1px solid #eee;
+    padding: 60px 0 100px 0;
+}
+
+section#questions ol {
+    list-style: decimal !important;
+    width: 493px;
+    margin: 0 auto;
+    color: #777;
+}
+
+section#questions h1 {
+    margin-left: 28%;
+    font-size: 40px;
+    font-weight: 100;
+    color: #666;
+}
+
+section#questions li {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+section#questions ol span {
+    font-size: 35px;
+    color: #bbb;
+    top: 2px;
+    position: relative;
+    left: 2px;
+}
+
+section.answer {
+    background: #f7f6f1;
+}
+section.answer:nth-child(2n+1) {
+    background: #e3e2dd;
+}
+
+section.answer h2 {
+    width: 100%;
+    color: #ea292e;
+    margin-left: 6%;
+}
+section.answer {
+    padding: 100px 0 120px 0;
+}
+section.answer div.inset-text {
+    margin-left: 12%;
+    width: 73%;
+    padding-left: 4%;
+    border-left: 1px solid #c4c3be;
+    position: relative;
+    top: 25px;
+}
+section.answer h2 { float: none ;}
+section.answer h2 span {
+    color: #6b6a68;
+}
+section.answer p {
+    width: 100%;
+    float:none;
+}
+
+section.answer a.top {
+    float: right;
+    margin-right: 11%;
+    margin-top: 41px;
+}
