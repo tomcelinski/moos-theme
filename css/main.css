@@ -1186,3 +1186,102 @@ section.answer a.top {
     margin-right: 11%;
     margin-top: 41px;
 }
+
+body.page-template-page-faq-php section.light img {
+    max-width: 100%;
+}
+
+div.map-title {
+    text-align: center;
+    padding-top: 20px;
+}
+
+div.map-title h3 {
+    font-weight: 100;
+    font-size: 28px;
+    color: black;
+    margin-bottom: 0;
+}
+
+div.map-title p {
+    color: #888;
+    margin-top: 3px;
+}
+
+
+/* =============
+
+    BLOG PAGE
+    
+================= */
+
+.wrapper.blog {
+    margin-top: 80px;
+}
+
+body.blog {
+    background: white !important;
+}
+
+body.blog .header-container {
+    border-bottom: 1px solid #eee;
+}
+
+body.blog h3.widget-title {
+    background: #DEDDD9;
+    text-align: center;
+    padding-top: 3px;
+    color: #444;
+    margin-bottom: 0;
+}
+
+body.blog .widget-area aside.widget {
+    margin-bottom: 40px;
+}
+
+body.blog .widget-area a {
+    color: #ea292e !important;
+}
+
+body.blog .widget-area ul {
+    padding: 0 0 0 18px;
+}
+
+body.blog .entry-header .info {
+    float: left;
+    margin-right: 30px;
+}
+
+body.blog .entry-header .info p {
+    margin: -10px 0 0 0;
+    font-size: 13px;
+    color: #777;
+    text-align: center;
+}
+
+body.blog article {
+    width: 100% !important;
+    margin-top: -12px;
+    border-bottom: 0;
+}
+
+body.blog h1.entry-title {
+    font-weight: 100;
+    font-size: 170%;
+}
+
+body.blog .main-container {
+    background: #F7F6F1;
+}
+
+body.blog h1.entry-title a span {
+    color: #777;
+    font-size: 35px;
+}
+
+body.blog .entry-summary {
+    border-left: 1px solid #c4c3be;
+    margin-left: 130px;
+    padding-left: 20px;
+    margin-top: -16px;
+}

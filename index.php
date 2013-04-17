@@ -15,8 +15,8 @@
  */
 
 get_header(); ?>
-
-	<div id="primary" class="site-content">
+<div class="wrapper blog">
+	<div id="primary" class="site-content main">
 		<div id="content" role="main">
 		<?php if ( have_posts() ) : ?>
 
@@ -64,3 +64,5 @@ get_header(); ?>
 
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>
+
+</div> <!-- .wrapper -->

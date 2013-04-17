@@ -486,3 +486,9 @@ function twentytwelve_customize_preview_js() {
 	wp_enqueue_script( 'twentytwelve-customizer', get_template_directory_uri() . '/js/theme-customizer.js', array( 'customize-preview' ), '20120827', true );
 }
 add_action( 'customize_preview_init', 'twentytwelve_customize_preview_js' );
+
+
+function custom_excerpt_length( $length ) {
+	return 60;
+}
+add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
