@@ -9,9 +9,9 @@ get_header(); ?>
 <section id="main_image">
     <div class="main wrapper clearfix">
     <section id="intro" class="col">
-        <h2>Welcome to the revolution.</h2>
+        <h2>Welcome to the revolution!</h2>
 		  <p>The Mini Aero are extraordinary wireless loudspeakers. They are a result of sophisticated engineering, no-compromise selection of high-performance parts and materials, meticulous attention to detail, and the development of WATT&trade;, the revolutionary Wireless Audio Transport Technology.</p>
-		  <p>We are very excited about kicking off production of the first batch of the Mini Aero and expect to ship them to customers in late April. Numbers are, of course, limited. If you want to be one of the first to own them reserve yours now.&nbsp;</p>
+		  <p>We are very excited about kicking off production of the first batch of the Mini Aero and expect to ship them to customers the next few weeks - please see FAQ for more details. Numbers are, of course, limited. If you want to be one of the first to own them reserve yours now.&nbsp;</p>
         <div class="center">
 				<a href="<?php echo site_url(); ?>/pre-order/" class="button">Pre-order now - $2,499 + Tax</a>
 				<!--<a href="http://heroku.us4.list-manage1.com/subscribe?u=50866fc2a4d10c3bf6dbca3ec&id=b27716dae1" target="_blank" class="button">Pre-order now - $2,499 + Tax</a>-->
@@ -98,7 +98,7 @@ get_header(); ?>
 <section id="understated_elegance" class="light">
 	 <div class="wrapper">
 		  <h2>Understated elegance.</h2>
-		  <p>The Mini Aero exude elegant simplicity. Impeccably and finished and hand-polished, the high gloss piano lacquer contrasts with machined black anodized aluminium and intricate surface texture of the drive units. The Mini Aero look every bit as stunning as they sound.</p>
+		  <p>The Mini Aero exude elegant simplicity. Impeccably finished, the hand-polished high gloss piano lacquer contrasts with the machined black anodized aluminium and intricate surface texture of the drive units. The Mini Aero look every bit as stunning as they sound.</p>
 		  <div class="clear"></div>
 	 </div>
 </section>
@@ -151,7 +151,7 @@ get_header(); ?>
 	 <div class="wrapper">
 		  <h2>Your Mini Aero are ready for pre-order!</h2>
 		  <p>The best way to decide if you can resist the Mini Aero is to listen in your own home. We are sure you will fall in love with the looks, and will be blown away by the sound. If for whatever reason you choose to part ways, just return them in original condition within 30 days, no questions asked &ndash; that&rsquo;s a guarantee.</p>
-		  <p>We are making the very first batch of the Mini Aero and expect to be shipping in late April. Pre-order now to be among the first to own the Mini Aero. We will not charge your card until we ship. Shipping cost included in price for pre-order customers from USA and Australia. Numbers are strictly limited, so don&rsquo;t dilly dally &ndash; pre-order now!</p>
+		  <p>We are making the very first batch of the Mini Aero and expect to be shipping in the next few weeks. Pre-order now to be among the first to own the Mini Aero. We will not charge your card until we ship. Shipping cost included in price for pre-order customers from USA and Australia. Numbers are strictly limited, so don&rsquo;t dilly dally &ndash; pre-order now!</p>
 
 		  <p class="centered"><a href="<?php echo site_url(); ?>/pre-order/" class="button">Pre-order now - $2,499 + Tax</a></p>
 		  <!--<p class="centered"><a href="http://heroku.us4.list-manage1.com/subscribe?u=50866fc2a4d10c3bf6dbca3ec&id=b27716dae1" target="_blank" class="button">Pre-order now - $2,499</a></p>-->
