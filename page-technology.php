@@ -88,7 +88,7 @@ get_header(); ?>
     <div class="wrapper">
         <h2>Enter the SHARC – killer DSP.</h2>
         <p>Digital Signal Processing (DSP) is at the heart of the Mini Aero, responsible for the separation of high and low frequency components (digital crossover) as well as frequency response correction, and time alignment of drive units.</p>
-		  <p>The computationally intensive DSP functionality is handled by a high performance Analog Devices SHARC floating point signal processor, with 32-bit processing word size and 64-bit accumulator. The use of this high performance floating point ensures that residual effects of calculations are vanishingly small. The SHARC processors also provide hardware-based, ultra low distortion sample rate conversion functionality used in jitter reduction.</p>
+		  <p>The computationally intensive DSP functionality is handled by a high performance Analog Devices SHARC floating point signal processor, with 32-bit processing word size and 64-bit accumulator. The use of high performance floating point DSP ensures that residual effects of calculations are vanishingly small. The SHARC processors also provide hardware-based, ultra low distortion sample rate conversion functionality used in jitter reduction.</p>
 		  <p>Each speaker contains a dedicated SHARC DSP. In addition, a SHARC DSP is also used in the wireless transmitter to support the proprietary pre-processing used to ensure high integrity, 100% bit-accurate wireless transmission at data rates of 24bit/96kHz. Like everything else in the Mini Aero, the DSP processing is second to none &ndash; ultimate DSP for ultimate speakers.</p>
 	 </div>
 </section> 
