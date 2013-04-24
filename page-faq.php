@@ -18,10 +18,10 @@ get_header(); ?>
  			<li><a href="#volumeanalogdigital">Is the volume control done analog or digital domain? <span>&raquo;</span></a></li>
  			<li><a href="#legacysources">Can I connect my CD, DVD or PluRay player to the Mini Aero? <span>&raquo;</span></a></li>
  			<li><a href="#wiredconnectivity">Will the Mini Aero have wired connectivity? <span>&raquo;</span></a></li>
- 			<li><a href="#grilles"> Will the Mini Aero come with grilles? <span>&raquo;</span></a></li>
+ 			<li><a href="#grilles">Will the Mini Aero come with grilles? <span>&raquo;</span></a></li>
  			<li><a href="#remotecontrol">Will the Mini Aero come with an IR remote control? <span>&raquo;</span></a></li>
  			<li><a href="#stands">Will you have matching stands for the Mini Aero? <span>&raquo;</span></a></li>
- 			<li><a href="#inputhub">Will there be a way of connecting CD, DVD or BluRay Player in the future? <span>&raquo;</span></a></li>
+ 			<li><a href="#inputhub">Will there be a way of connecting CD, DVD or BluRay Player in the future? When? <span>&raquo;</span></a></li>
 			<li><a href="#subwoofer">Will there be a matching subwoofer? <span>&raquo;</span></a></li>
 		</ol>
 	 </div>
@@ -94,7 +94,7 @@ get_header(); ?>
 
 <section class="light clear answer" id="playbackcontrol">
 	 <div class="wrapper">
-	 	<h2><span>Q3.</span> WillHow will I control playback?</h2>
+	 	<h2><span>Q3.</span> How will I control playback?</h2>
 	 	<div class="inset-text"><p>The Mini Aero come with a USB dongle for your PC/Mac.  This allows playback from a music library on a PC/Mac - in fact any sound output from your PC/Mac will be redirected to the Mini Aero.</p>
 		<p>From the perspective of remotely controlling music playback on your PC/Mac, the best option is to use a smart phone app in conjunction with a matching music library.  There are many great remote control apps for iPhone/iPod/iPad, for Android phones and tablets, and for Windows phones.  Many of these are free and those that are not free cost a nominal amount. We will put together a list of recommended remote control apps and make this list available here at a future point in time. </p>
 		<p>The great thing about apps is that they give you full access to your music library, as well as allowing control of playback and volume. Those who don't own a smart phone, or prefer to have a dedicated non-phone device as remote control have two options:
@@ -150,11 +150,46 @@ get_header(); ?>
 	 </div>
 </section>
 
-<section class="light clear answer" id="countryavailable">
+<section class="light clear answer" id="grilles">
 	 <div class="wrapper">
-	 	<h2><span>Q3.</span> How will I control volume?</h2>
-	 	<div class="inset-text"><p></p>
+	 	<h2><span>Q3.</span> Will the Mini Aero come with grilles?</h2>
+	 	<div class="inset-text"><p>The oroiginal plan was to go without grilles. However, as we have seen a preliminary level of interest in grilles, we are working on grilees. These may ultimately be offered as a separate accessory, depending on the final level of interest in grilles. Either way, there will be grilles.</p>
+		</div>
+	 	<a class="top" href="#top">back to top</a>
+	 </div>
+</section>
 
+<section class="light clear answer" id="remotecontrol">
+	 <div class="wrapper">
+	 	<h2><span>Q3.</span> Will the Mini Aero come with an IR remote control?</h2>
+	 	<div class="inset-text"><p>The answer is no it will not come tith an IR remote control as there are much better ways of achieving playback control. Please see <a href="#playbackcontrol">How will I control playback?</a> for details.</p>
+		</div>
+	 	<a class="top" href="#top">back to top</a>
+	 </div>
+</section>
+
+<section class="light clear answer" id="stands">
+	 <div class="wrapper">
+	 	<h2><span>Q3.</span> Will you have matching stands for the Mini Aero?</h2>
+	 	<div class="inset-text"><p>Yes, there will be. They may not be available on the day the Mini Aero ship, but should be available not long after.</p>
+		</div>
+	 	<a class="top" href="#top">back to top</a>
+	 </div>
+</section>
+
+<section class="light clear answer" id="inputhub">
+	 <div class="wrapper">
+	 	<h2><span>Q3.</span> Will there be a way of connecting CD, DVD or BluRay Player in the future? When?</h2>
+	 	<div class="inset-text"><p>Yes, there will be. We are working on an input hub product that will accommodate a range of sources/inputs. While we can't tell you exactly which inputs we will have just yet for competitive reasons, rest assured that this will be a well thought out and very high quality product. All requests/suggestions are very welcome - please email makeitgreat@moosaudio.com. While the work has started, we can certainly accommodate some last minute suggestions if these happen to come from a broader group of people. We are working on having the hub in time for Christmans!</p>
+		</div>
+	 	<a class="top" href="#top">back to top</a>
+	 </div>
+</section>
+
+<section class="light clear answer" id="subwoofer">
+	 <div class="wrapper">
+	 	<h2><span>Q3.</span> Will there be a matching subwoofer?</h2>
+	 	<div class="inset-text"><p>Yes, there will be. Our aim is to have the design completed by the end of this year, and shipping at the beginning of next year.</p>
 		</div>
 	 	<a class="top" href="#top">back to top</a>
 	 </div>
